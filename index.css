@@ -1,8 +1,23 @@
-content {
-    display: flexbox;
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h4 {
+    padding: 10px;
+    margin-bottom: 30px;
 }
 
 button {
-    display: block;
-    margin-top: 12px;
+    margin-top: 20px;
 }

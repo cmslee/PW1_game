@@ -21,3 +21,9 @@ h4 {
 button {
     margin-top: 20px;
 }
+
+#reset {
+    position: fixed;
+    bottom: 20px;
+    right: 15px;
+}

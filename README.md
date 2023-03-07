@@ -1,6 +1,8 @@
 # About the Project
 
-The project is... . It works by ... .
+This game walks the player through a dinner prep process by presenting it as a series of decision-making chains that match the recipe's difficulty level to the player's current energy-level and food-mood. 
+
+
 
 [Deployed game](link to deployed game)
 
@@ -18,18 +20,15 @@ The project is... . It works by ... .
 
 # Usage
 
-Show examples of how project can be used.
+Obviously, this test run is scripted specifically for one recipe. Ideally, the game could be used to walk one's way through different difficulty levels of simple, everyday recipes according to one's capacity. 
 
 # Roadmap
 
-# Author / Contact
+# Author 
 
-Your Name
-
-[github]
-[LinkedIn]
+C.Lee
 
 # Acknowledgments
 
 [Tutorial 1](https://youtu.be/kayFBMl06q8)
-[]
+[Kitsune Udon Recipe](https://www.justonecookbook.com/kitsune-udon/)

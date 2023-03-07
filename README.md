@@ -1,7 +1,22 @@
 # About the Project
 
-This game walks the player through a dinner prep process by presenting it as a series of decision-making chains that match the recipe's difficulty level to the player's current energy-level and food-mood. 
+## Project Title
 
+"What's for dinner tonight?" 
+
+## Motivation
+
+This game designed for people who have anxiety about what to do about dinner as it approaches. The person for whom everything about cooking is stressful. The person who wants to throw something at screens featuring videos that begin with "this is such an easy recipe" only to then learn that step 1 is "chop a million vegetables into tiny pieces." 
+
+Using a "choose your own adventure" format, it instead accompanies the player at the start-line of the dinner-prep process, checks in with how they are feeling, and maps a course of action along a decision-making chain that matches dinner-prep options to their capacity in the moment. T
+
+The idea is to help people feed themselves without judgment of how they are feeling or how many times they have to lie down for second before getting up and trying again.
+
+## Build Status
+
+For this test run, I have selected the dinner option "Kitsune Udon," a Japanese noodle soup staple whose difficulty and labor-intensity is flexible and customizable. There are four routes to completing this dinner option, all of which can be considered "win" states. There is no "lose" state, per se, thought there is a reset button as well as options during check-in stages to temporarily exit the decision-making chain.
+
+This is a very barebones testing of code and game-flow. Following the tutorial cited below, displayed story elements are contained within scene objects at the top of the code, while functions dictating page and story navigation are situated below. Comments note areas of improvement, existing known errors, and intentions for future development.
 
 
 [Deployed game](link to deployed game)
@@ -14,15 +29,6 @@ This game walks the player through a dinner prep process by presenting it as a s
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## Prerequisites
-
-## Installation
-
-# Usage
-
-Obviously, this test run is scripted specifically for one recipe. Ideally, the game could be used to walk one's way through different difficulty levels of simple, everyday recipes according to one's capacity. 
-
-# Roadmap
 
 # Author 
 
@@ -30,5 +36,6 @@ C.Lee
 
 # Acknowledgments
 
-[Tutorial 1](https://youtu.be/kayFBMl06q8)
-[Kitsune Udon Recipe](https://www.justonecookbook.com/kitsune-udon/)
+[~Tutorial~](https://youtu.be/kayFBMl06q8)
+[~Restart Button Discussion~](https://teamtreehouse.com/community/any-one-know-how-to-make-a-restart-button)
+[~Kitsune Udon Recipe~](https://www.justonecookbook.com/kitsune-udon/)

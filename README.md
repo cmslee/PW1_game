@@ -19,7 +19,7 @@ For this test run, I have selected the dinner option "Kitsune Udon," a Japanese 
 This is a very barebones testing of code and game-flow. Following the tutorial cited below, displayed story elements are contained within scene objects at the top of the code, while functions dictating page and story navigation are situated below. Comments note areas of improvement, existing known errors, and intentions for future development.
 
 
-[Deployed game](link to deployed game)
+[What's for Dinner Tonight?](https://cmslee.github.io/PW1_game/)
 
 ## Built With
 

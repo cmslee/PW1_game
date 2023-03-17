@@ -6,11 +6,11 @@
 
 ## Motivation
 
-This game designed for people who have anxiety about what to do about dinner as it approaches. The person for whom everything about cooking is stressful. The person who wants to throw something at screens featuring videos that begin with "this is such an easy recipe" only to then learn that step 1 is "chop a million vegetables into tiny pieces." 
+This game is designed for people who have anxiety about what to do about dinner as it approaches. The person for whom everything about cooking is stressful. The person who wants to throw something at screens featuring videos that begin with "this is such an easy recipe" only to then learn that step 1 is "chop a million vegetables into tiny pieces." 
 
 Using a "choose your own adventure" format, it instead accompanies the player at the startline of the dinner prep process, checks in with how they are feeling, and maps a course of action along a decision-making chain that matches dinner-prep options to their capacity in the moment.
 
-The idea is to help people feed themselves without judgment of how they are feeling or how many times they have to lie down for second before getting up and trying again.
+The idea is to help people feed themselves without judgment of how they are feeling or how many times they have to lie down for a second before getting up and trying again.
 
 ## Build Status
 
@@ -19,7 +19,7 @@ For this test run, I have selected the dinner option "Kitsune Udon," a Japanese 
 This is a very barebones testing of code and game-flow. Following the tutorial cited below, displayed story elements are contained within scene objects at the top of the code, while functions dictating page and story navigation are situated below. Comments note areas of improvement, existing known errors, and intentions for future development.
 
 
-[What's for Dinner Tonight?](https://cmslee.github.io/PW1_game/)
+[What's for Dinner Tonight?](https://cmslee.github.io/PW1_game/index.html)
 
 ## Built With
 

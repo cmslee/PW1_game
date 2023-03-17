@@ -109,7 +109,7 @@ function getStory(name) {
         MediumStep1: {
             title: "Leveled Up Mode: Gather Ingredients",
             story: "Way to choose a worthy challenge! For noodle soups, attention to broth can make a noticeable difference. Let's start by gathering ingredients.",
-            ingredients: "frozen udon noodle pack, dashi ingredients (konbu, bonito flakes, water), inari-age, narutomaki, green onion",
+            ingredients: "What you'll need: frozen udon noodle pack, dashi ingredients (konbu, bonito flakes, water), inari-age, narutomaki, green onion.",
             steps: "Udon packs come frozen and dried, but the frozen ones usually hold up better after cooking and are more suitable to noodle soup dishes. Dashi ingredients usually include dried konbu kelp and dried bonito flakes, both of which can be used straight out of the package. Inari-age, fried tofu pouches marinated in a sweet and savory broth, can be bought pre-made in a can or refridgerated package. Narutomaki, scallop-edged fish cake with a pink swirl in the middle (which might be familiar to some anime buffs), comes cooked and ready-to-eat either from the fridge or defrosted/parboiled from freezer.",
             defaultDestination: "DashiStepMedium",
             buttonText: "Let's go!"
@@ -117,7 +117,7 @@ function getStory(name) {
         DashiStepMedium: {
             title: "Prepare Dashi",
             story: "Making dashi from scratch can be a bit daunting at first, but the process can ease into habit with practice, even become a therapeutic or meditative way to enter your cooking process. Or, you can prepare your dashi in advance to save brain space AND have on hand for all sorts of brothy, umami deliciousness (miso soup, soba noodles, braised veggies).",
-            ingredients: "dried konbu, dried bonito flakes, water",
+            ingredients: "What you'll need: dried konbu, dried bonito flakes, water.",
             steps: "Prepare the dashi. Let konbu soak into pot of water until completely submerged (5-10 min). Turn heat to high and let slowly come to near-boil. When you see bubbles start to form, remove konbu. Put loose bonito flakes in a teabag and place in near-boiling water. After liquid comes to a boil, turn off heat and let soak for 10 minutes. Remove bonito flakes teabag. Dashi is complete.",
             defaultDestination: "NoodlesToppings",
             buttonText: "Keep going..."
@@ -125,7 +125,7 @@ function getStory(name) {
         NoodlesToppings: {
             title: "Prepare Noodles & Toppings",
             story: "This can be done while wait for your dashi to finish steeping or maybe this is where you start if you've got dashi on hand to reheat!",
-            ingredients: "frozen udon noodle pack, inari-age, narutomaki, green onion",
+            ingredients: "What you'll need: frozen udon noodle pack, inari-age, narutomaki, green onion.",
             steps: "Cook noodles according to package directions. Drain under running water, shake off excess water, and set aside in serving bowl. Slice some green onion and narutomaki as garnish. Optional: squeeze extra liquid from inari-age for a milder, chewier experience.",
             defaultDestination: "BrothStep",
             buttonText: "Almost there..."
@@ -133,8 +133,8 @@ function getStory(name) {
         BrothStep: {
             title: "Prepare Noodle Broth",
             story: "Now let's come back to our dashi and turn it into noodle broth!",
-            ingredients: "dashi, mirin, sugar, soy sauce, salt",
-            steps: "Add mirin, sugar, soy sauce, and salt. Bring to boil and turn off heat. Broth complete. The next steps shouldn't take long, but if you are a stickler for broth temperature, you can keep it over low heat on an unused stove. Just don't forget to turn off the heat before serving.",
+            ingredients: "What you'll need: dashi, mirin, sugar, soy sauce, salt.",
+            steps: "Add mirin, sugar, soy sauce, and salt. Bring to boil and turn off heat. Noodle broth complete.",
             defaultDestination: "DinnerServedMedium",
             buttonText: "So close..."
         },
@@ -148,23 +148,23 @@ function getStory(name) {
         HardStep1: {
             title: "All Out Mode: Gather Ingredients",
             story: "The kitsune in this recipe means fox, either because the primary topping on this dish, inari-age, is believed to be a favorite treat of the fox spirit or because it approximates the color of a fox. Either way, to choose to make your own inari-age is to choose the path of god-tier (or fox-tier) kitsune udon. Let's gather our ingredients.",
-            ingredients: "frozen udon noodle pack, dashi ingredients (konbu, bonito flakes, water), inari-age ingredients (aburaage, dashi, soy sauce, mirin, sugar), narutomaki, green onion",
-            steps: "",
+            ingredients: "What you'll need: frozen udon noodle pack, dashi ingredients (konbu, bonito flakes, water), inari-age ingredients (aburaage, dashi, soy sauce, mirin, sugar), narutomaki, green onion.",
+            steps: "Udon packs come frozen and dried, but the frozen ones usually hold up better after cooking and are more suitable to noodle soup dishes. Dashi ingredients usually include dried konbu kelp and dried bonito flakes, both of which can be used straight out of the package. Inari-age is made by simmering aburaage (fried tofu pouches) in a sweet and savory broth. Narutomaki, scallop-edged fish cake with a pink swirl in the middle (which might be familiar to some anime buffs), comes cooked and ready-to-eat either from the fridge or defrosted/parboiled from freezer.",
             defaultDestination: "DashiStepHard",
             buttonText: "Let's go!"
         },
         DashiStepHard: {
             title: "Prepare Dashi",
             story: "Making dashi from scratch can be a bit daunting at first, but the process can ease into habit with practice, even become a therapeutic or meditative way to enter your cooking process. Or, you can prepare your dashi in advance to save brain space AND have on hand for all sorts of brothy, umami deliciousness: miso soup, soba noodles, braised veggies, and -- you guessed it -- inari-age! Your dashi will be serving double duty this recipe, so make sure to keep in mind while portioning.",
-            ingredients: "dried konbu, dried bonito flakes, water",
+            ingredients: "What you'll need: dried konbu, dried bonito flakes, water.",
             steps: "Prepare the dashi. Let konbu soak into pot of water until completely submerged (5-10 min). Turn heat to high and let slowly come to near-boil. When you see bubbles start to form, remove konbu. Put loose bonito flakes in a teabag and place in near-boiling water. After liquid comes to a boil, turn off heat and let soak for 10 minutes. Remove bonito flakes teabag. Dashi is complete.",
             defaultDestination: "InariAge",
             buttonText: "Keep going..."
         },
         InariAge: {
             title: "Prepare Inari-age",
-            story: "Congratulations! You are about to embark on a journey to wield the power over this topping's flavor intensity! Like dashi, this can be made in advance for easier dinner preparation. It also works well as a topping for soba or rice and, of course, as a wrapper for inarizushi.",
-            ingredients: "aburaage (deep-fried tofu pouch), dashi, soy sauce, mirin, sugar",
+            story: "Congratulations! You are about to level-up with the power to control this topping's flavor intensity! If you like a sweeter finish to this chewy delight, you can up the sugar content or tamp down for a more subtle sweetness. Like dashi, this can be made in advance for easier dinner preparation. It also works well as a topping for soba or rice and, of course, as a wrapper for inarizushi.",
+            ingredients: "What you'll need: aburaage (deep-fried tofu pouch), dashi, soy sauce, mirin, sugar.",
             steps: "Prepare aburaage by slicing by half width-wise. Cook in saucepan of boiling water for 2 minutes to remove factory oil. Strain and press gently (with spoon or ladel) to squeeze out excess liquid. Combine dashi, soy sauce, mirin, sugar in saucepan and bring to boil. Add aburaage in broth, arranging so they are all submerged in liquid. Reduce heat. Place drop lid on top to keep submerged and cook for 30-40 minutes. Remove from heat and let cool. Inari-age complete.",
             defaultDestination: "NoodlesToppingsHard",
             buttonText: "You got this!"
@@ -172,24 +172,23 @@ function getStory(name) {
         NoodlesToppingsHard: {
             title: "Prepare Noodles & Additional Toppings",
             story: "This can be done while wait for your dashi to finish steeping or maybe you're a rockstar and have some dashi on hand to reheat!",
-            ingredients: "frozen udon noodle pack, homemade inari-age, narutomaki, green onion",
+            ingredients: "What you'll need: frozen udon noodle pack, homemade inari-age, narutomaki, green onion.",
             steps: "Cook noodles according to package directions. Drain under running water, shake off excess water, and set aside in serving bowl. Slice some green onion and narutomaki as garnish. Optional: squeeze extra liquid from inari-age for a milder, chewier experience.",
-            defaultDestination: "BrothStep",
+            defaultDestination: "BrothStepHard",
             buttonText: "Almost there..."
         },
-        BrothStep: {
+        BrothStepHard: {
             title: "Prepare Noodle Broth",
             story: "Now let's come back to our dashi and turn it into noodle broth!",
-            ingredients: "dashi, mirin, sugar, soy sauce, salt",
-            steps: "Add mirin, sugar, soy sauce, and salt. Bring to boil and turn off heat. Broth complete. The next steps shouldn't take long, but if you are a stickler for broth temperature, you can keep it over low heat on an unused stove. Just don't forget to turn off the heat before serving.",
-            defaultDestination: "DinnerServedMedium",
+            ingredients: "What you'll need: dashi, mirin, sugar, soy sauce, salt.",
+            steps: "Add mirin, sugar, soy sauce, and salt. Bring to boil and turn off heat. Noodle broth complete.",
+            defaultDestination: "DinnerServedHard",
             buttonText: "So close..."
         },
         DinnerServedHard: {
             title: "Dinner is Served!",
             story: "Now you just put everything together!",
             steps: "Pour the prepared dashi over noodles, just so most of the noodles are submerged. Top artfully (or not) with at least 2 inari-age slices and additional toppings of choice. Enjoy this warm bowl of chewy noodles by taking in a sip of broth. As the flavor awakens your palette, take a moment to admire your homemade inari-age sitting organically atop the noodles, charmingly wrinkly and pillowy soft. Its not-too-sweet-and-savory punch is complimented perfectly by the mild, satisfying depth of your broth.",
-            //Error: this image is not working
             image: "kitsune_udon_justonecookbook.jpg",
             defaultDestination: "checkIn",
             buttonText: "Back to Start"
@@ -202,7 +201,6 @@ function getStory(name) {
         }
     }
 }
-
 
 document.addEventListener('DOMContentLoaded', function () {
     let button = document.querySelector("#start-button")
@@ -231,6 +229,7 @@ function renderScene() {
     }
     if (story[story.currentScene].ingredients) {
         content.innerHTML = `
+        <div class="content">
         <h1>${story[story.currentScene].title}</h1>
         <h4></h4>
         <p>${story[story.currentScene].story}</p>
@@ -238,27 +237,32 @@ function renderScene() {
         <p>${story[story.currentScene].ingredients}</p>
         <br></br>
         <p>${story[story.currentScene].steps}</p>
+        </div>
         ${image}
         ${getInputs()}
         <button id = "submit-button">${text}</button>
         `
     } else if (story[story.currentScene].steps) {
         content.innerHTML = `
+        <div class="content">
         <h1>${story[story.currentScene].title}</h1>
         <h4></h4>
         <p>${story[story.currentScene].story}</p>
         <br></br>
         <p>${story[story.currentScene].steps}</p>
+        </div>
         ${image}
         ${getInputs()}
         <button id = "submit-button">${text}</button>
         `
     } else {
         content.innerHTML = `
+        <div class="content">
         <h1>${story[story.currentScene].title}</h1>
         <h4></h4>
         <p>${story[story.currentScene].story}</p>
         <br></br>
+        </div>
         ${image}
         ${getInputs()}
         <button id = "submit-button">${text}</button>
@@ -271,8 +275,6 @@ function renderScene() {
     button.addEventListener('click', function () {
         getSelectedInput()
     });
-    //trying out a styling element here
-    // story[story.currentScene].story.style.textAlign = "center";
 }
 
 function getSelectedInput() {

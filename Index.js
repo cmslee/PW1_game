@@ -103,6 +103,7 @@ function getStory(name) {
             title: "Dinner is Served!",
             story: "Now you just put everything together.",
             steps: "Pour the prepared dashi over noodles, just so most of the noodles are submerged. Top artfully (or not) with at least 2 inari-age slices and your toppings of choice. Enjoy a warm bowl of rich broth, chewy noodles, and the sweet-savory punch of the inari-age.",
+            image: "kitsune_udon_easy.jpg",
             defaultDestination: "checkIn",
             buttonText: "Back to Start"
         },
@@ -142,6 +143,7 @@ function getStory(name) {
             title: "Dinner is Served!",
             story: "Now you just put everything together!",
             steps: "Pour the prepared dashi over noodles, just so most of the noodles are submerged. Top artfully (or not) with at least 2 inari-age slices and additional toppings of choice. Enjoy a warm bowl of chewy noodles in a deeply flavored broth of your own making. It compliments the sweet-savory punch of the inari-age perfectly.",
+            image: "kitsune_udon_medium.jpg",
             defaultDestination: "checkIn",
             buttonText: "Back to Start"
         },
